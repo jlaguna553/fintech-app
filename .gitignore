@@ -1,0 +1,18 @@
+# Dependencias de PHP (no se suben, se instalan con composer install)
+**/vendor/
+
+# Datos persistentes de la base de datos (evita subir tus registros locales)
+mysql_data/
+
+# Archivos de configuración de Docker/IDE
+.idea/
+.vscode/
+NUL
+
+# Logs y archivos temporales
+*.log
+.DS_Store
+
+# Archivos de entorno (si llegas a usar archivos .env)
+.env
+
